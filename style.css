@@ -1,0 +1,101 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom right, #000000, #000000);
+    color: #fc0000;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.btn {
+    background: #f9c802;
+    color: #333;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background: #ffde59;
+}
+
+/* About Section */
+.about {
+    background: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.about p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Portfolio Section */
+.portfolio {
+    background: #f5f5f5;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+.portfolio-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.portfolio-item img {
+    width: 100%;
+    display: block;
+}
+.portfolio-item h3 {
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.portfolio-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    background: #1e3c72;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
