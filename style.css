@@ -93,9 +93,11 @@ body {
 
 /* Footer */
 .footer {
-    background: #000000;
+    background-color: #000000;
     color: #fff;
+    padding: 10px 0;
     text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
+    border-top: solid gray 1px;
+    width: 100%;
+    position: relative;
 }
